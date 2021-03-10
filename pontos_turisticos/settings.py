@@ -23,7 +23,7 @@ from decouple import config
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['pt-api-treinamento.herokuapp.com/', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['pt-api-treinamento.herokuapp.com/', '127.0.0.1:8000', '127.0.0.1']
 
 
 # Application definition
